@@ -1,0 +1,81 @@
+/* Light glass card effect */
+.glass {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Body background */
+body {
+  background-color: #f9f9fb;
+  color: #796c6c;
+}
+
+/* Headings */
+h1, h5 {
+  color: #b6a2a2;
+}
+
+/* Buttons with pastel tones */
+.btn-primary {
+  background-color: #6fa8dc;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #3d85c6;
+}
+
+.btn-success {
+  background-color: #93c47d;
+  border: none;
+}
+.btn-success:hover {
+  background-color: #6aa84f;
+}
+
+.btn-warning {
+  background-color: #ffd966;
+  border: none;
+  color: #444;
+}
+.btn-warning:hover {
+  background-color: #f1c232;
+  color: #222;
+}
+
+.btn-info {
+  background-color: #76a5af;
+  border: none;
+}
+.btn-info:hover {
+  background-color: #45818e;
+}
+
+.btn-dark {
+  background-color: #999;
+  border: none;
+}
+.btn-dark:hover {
+  background-color: #666;
+}
+
+/* Result area styling */
+#resultArea, #addMessage {
+  padding: 15px;
+  border-radius: 8px;
+  background: #f1f1f6;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+/* List group subtle styling */
+.list-group-item {
+  background-color: #fafafa;
+  color: #444;
+  border: 1px solid #eee;
+}
+.list-group-item:hover {
+  background-color: #f0f0f0;
+}
